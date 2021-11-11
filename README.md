@@ -1,3 +1,10 @@
+To build:
+
+`
+cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake
+cmake --build build
+`
+
 ## C++ project template
 
 [![hosted-ninja-vcpkg_submod-autocache](https://github.com/lukka/CppCMakeVcpkgTemplate/actions/workflows/hosted-ninja-vcpkg_submod.yml/badge.svg)](https://github.com/lukka/CppCMakeVcpkgTemplate/actions/workflows/hosted-ninja-vcpkg_submod.yml)[![hosted-pure-workflow](https://github.com/lukka/CppCMakeVcpkgTemplate/actions/workflows/hosted-pure-workflow.yml/badge.svg)](https://github.com/lukka/CppCMakeVcpkgTemplate/actions/workflows/hosted-pure-workflow.yml)
